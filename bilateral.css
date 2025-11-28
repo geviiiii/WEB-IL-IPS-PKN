@@ -1,0 +1,351 @@
+
+
+body{
+    margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: lavender;
+    padding: 100px;
+    text-align: center;
+    background-image:url(SDGs.png)
+}
+
+/* Style the topnavigator */
+.topnav {
+    overflow: hidden;
+    background-color: #1e424d;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #E5D595;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+background-color: cornflowerblue;
+color: black;
+}
+
+.column.middle{
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    width: 60%;
+    h2{text-align: center;}
+    background-color: #e9b950;
+    height: 1080px;
+    float: left;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    box-sizing: border-box; 
+/* Efek Pop Out */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease-in-out; /* Transisi halus */
+
+    /* Hapus float: left; yang lama */
+}
+
+.column.middle:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.column {
+background-color: #e9b950;
+}
+
+.column.side{
+    width: 30%;
+    padding: 5px;
+    height: auto;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+overflow: hidden;
+margin: 0px;
+
+display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.column.side img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+object-fit: contain;
+margin-bottom: 10px;
+
+}
+.column.side:hover img{
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+.column.middle
+
+.row::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.row {
+    display: flex; /* Ini mengaktifkan tata letak kolom */
+    width: 100%;
+    /* Ini akan memastikan konten di tengah vertikal jika tingginya berbeda */
+    align-items: flex-start; 
+}
+
+.column {
+    /* Pastikan float: none; */
+    background-color: #e9b950; 
+}
+
+.footer{
+    background-color: #f1f1f1;
+padding: 10px;
+text-align: center;
+float:inherit;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sdgslist {
+    display: block !important;
+    margin-left: 0;
+    padding-left: 20px;
+padding: 15px;
+    height: auto;
+}
+
+.sdgslist li {
+    display:list-item !important;
+    margin-bottom: 4px;
+    height: auto;
+    float: none;
+    clear: both;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #1e424d;
+right: 10px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li{float: left;}
+
+li a, .dropbtn1 {
+    display: inline-block;
+color: #E5D595;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li a:hover, .dropdown1:hover .dropbtn1 {
+background-color: #77B5D3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li.dropdown1 {
+display: inline-block;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li {
+float:left
+}
+
+.contents1 {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contents1 a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contents1 a:hover {background-color:
+#77B5D3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif }
+
+.dropdown1:hover .contents1 {
+display: block;
+}
+
+ul li ul.dropdown1 li{
+    display: block;
+}
+
+
+ul li:hover ul.dropdown1{
+    display: block;
+}
+
+li a, .dropbtn1 {
+    display: inline-block;
+color: #E5D595;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li a:hover, .dropdown1:hover .dropbtn1 {
+background-color: #77B5D3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li.dropdown1 {
+display: inline-block;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li {
+float:left
+}
+
+/* BUTTON SOLUSI */
+.contents2 {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contents2 a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contents2 a:hover {background-color:
+#77B5D3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif }
+
+.dropdown2:hover .contents2 {
+display: block;
+}
+
+ul li ul.dropdown2 li{
+    display: block;
+}
+
+ul li:hover ul.dropdown2{
+    display: block;
+}
+
+
+
+/* DROPDOWN KERJASAMA */
+li a, .dropbtn3 {
+    display: inline-block;
+color: #E5D595;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li a:hover, .dropdown3:hover .dropbtn3 {
+background-color: #77B5D3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li.dropdown3 {
+display: inline-block;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li {
+float:left
+}
+
+.contents3 {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contents3 a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contents3 a:hover {background-color:
+#77B5D3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif }
+
+.dropdown3:hover .contents3 {
+display: block;
+}
+
+ul li ul.dropdown3 li{
+    display: block;
+}
+
+
+ul li:hover ul.dropdown3{
+    display: block;
+}
+
+
+li a, .dropbtn3 {
+    display: inline-block;
+color: #E5D595;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li a:hover, .dropdown3:hover .dropbtn3 {
+background-color: #77B5D3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li.dropdown3 {
+display: inline-block;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li {
+float:left
+}
